@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <img src="logo.png" alt="Starbucks Logo" class="logo">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="menu.html">Menu</a>
+        <a href="ubicaciones.html">Ubicaciones</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="nosotros.html">Sobre Nosotros</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+ <section id="contacto">
+    <div class="contenedor">
+        <h4>Contacto</h4>
+        <div class="contacto-info">
+            <p>¡Contáctanos para cualquier consulta o comentario!</p>
+            <ul>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/starbucks" target="_blank">@starbucks</a></li>
+                <li><strong>Twitter:</strong> <a href="https://twitter.com/starbucks" target="_blank">@starbucks</a></li>
+                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/StarbucksArgentina" target="_blank">@starbucks</a></li>
+                <li><strong>Teléfono:</strong> +0800-122-0129</li>
+                <li><strong>Correo Electrónico:</strong> info@starbucks.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-image">
+            <img src="contacto foto.jpg" alt="Imagen de contacto">
+        </div>
+</section>
+
+<footer>
+  <div class="Iconos">
+      <p>© 2023 Starbucks. Todos los derechos reservados.</p>
+      <div class="social-icons">
+          <a href="https://www.instagram.com/starbucks" target="_blank">
+              <img src="instagram-logo.png" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/starbucks" target="_blank">
+              <img src="facebook-logo.png" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/company/starbucks" target="_blank">
+              <img src="linkedin-logo.png" alt="LinkedIn">
+          </a>
+      </div>
+  </div>
+</footer>
+</body>
+</html>

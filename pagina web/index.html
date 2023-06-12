@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <img src="logo.png" alt="Starbucks Logo" class="logo">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="menu.html">Menu</a>
+        <a href="ubicaciones.html">Ubicaciones</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="nosotros.html">Sobre Nosotros</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    
+    <section id="banner">
+        <h1>¡Bienvenido a Starbucks!</h1>
+        <p>Descubre nuestro delicioso café y mucho más.</p>
+        <a href="Menu.html" class="button">Explorar</a>
+    </section>
+
+    <section id="destacados">
+        <h2>Destacados de nuestro Menú</h2>
+        <div class="destacado">
+            <img src="cafe1.jpg" alt="Café 1">
+            <h3>Caramel Frappuccino</h3>
+            <p>Dulce combinación de caramelo, café, leche y hielo, decorado con un remolino de crema batida y topping de caramelo.</p>
+        </div>
+        <div class="destacado">
+            <img src="cafe2.jpg" alt="Café 2">
+            <h3>Shaken Lemonade Hibiscus</h3>
+            <p>Nuestro té de hibiscus combinado con limón y mezclado con hielo.</p>
+        </div>
+        <div class="destacado">
+            <img src="cafe3.jpg" alt="Café 3">
+            <h3>Cappuccino Helado</h3>
+            <p>El balance perfecto entre nuestro café espresso, hielo, leche y abundante espuma de leche.</p>
+        </div>
+    </section>
+
+    <section id="sobre-cafe">
+        <div class="contenido">
+            <div class="imagen">
+                <img src="cafe.jpg" alt="Imagen de café">
+            </div>
+            <div class="texto">
+                <h2>Nuestro café</h2>
+                <p>El olor al café, a unos granos recién tostados, es la mejor bienvenida que cada día planificamos para brindarles cuando abrimos las puertas de nuestras tiendas. Pero eso es sólo el comienzo.</p>
+                <p>De cuerpo entero, un poco ahumado, con notas cítricas, con fuerte presencia de chocolate…el desafío que tenemos constantemente es que cada uno de nuestros clientes encuentre su mezcla favorita y a la vez, que explore nuestras amplias selecciones más singulares. </p>
+                <p>Para alcanzarlo nos abastecemos de los mejores granos de café arábicos siguiendo siempre estrictos principios éticos.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="ubicaciones">
+        <h2>Encuentra una tienda cerca de ti</h2>
+        <p>Descubre nuestras ubicaciones y visítanos hoy mismo.</p>
+        <a href="ubicaciones.html" class="button">Ver Ubicaciones</a>
+    </section>
+
+    <footer>
+        <div class="Iconos">
+            <p>© 2023 Starbucks. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/starbucks" target="_blank">
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/starbucks" target="_blank">
+                    <img src="facebook-logo.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/company/starbucks" target="_blank">
+                    <img src="linkedin-logo.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
